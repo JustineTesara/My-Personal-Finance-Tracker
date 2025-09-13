@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>💰 My Finance Tracker</h1>
+    </header>
+
+    <div class="balance">
+      <h2>Total Balance: <span id="balance">0</span></h2>
+    </div>
+
+    <!-- Forms -->
+    <div class="form-container">
+      <div class="form income-form">
+        <h3>Add Income</h3>
+        <input
+          type="text"
+          id="incomeDescription"
+          placeholder="Enter income description"
+        />
+        <input
+          type="number"
+          id="incomeInput"
+          placeholder="Enter income amount"
+        />
+        <button id="addIncome">Add Income</button>
+      </div>
+
+      <div class="form expense-form">
+        <h3>Add Expense</h3>
+        <input
+          type="text"
+          id="expenseDescription"
+          placeholder="Enter expense description"
+        />
+        <input
+          type="number"
+          id="expenseInput"
+          placeholder="Enter expense amount"
+        />
+        <button id="addExpense">Add Expense</button>
+      </div>
+    </div>
+
+    <!-- Transaction List -->
+    <div class="transactions">
+      <h3>Transactions</h3>
+      <ul id="transactionList"></ul>
+    </div>
+
+    <!-- Chart -->
+    <div class="chart-container">
+      <h3>Balance Overview</h3>
+      <canvas id="financeChart" width="300" height="300"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
