@@ -39,4 +39,4 @@ Chart.js – data visualization
 <img width="1901" height="870" alt="image" src="https://github.com/user-attachments/assets/1e85b8a2-5b67-45ab-9e11-7d59ce0773b0" />
 
 🌐 Live Demo
-url:
+url: https://justinetesara.github.io/My-Personal-Finance-Tracker/
