@@ -32,11 +32,5 @@ Chart.js – data visualization
 
 ---
 
-## 📸 Demo Screenshot
-
-<img width="1905" height="865" alt="image" src="https://github.com/user-attachments/assets/28d5c3bf-18b9-4a72-8a29-12265b38af40" />
-
-<img width="1901" height="870" alt="image" src="https://github.com/user-attachments/assets/1e85b8a2-5b67-45ab-9e11-7d59ce0773b0" />
-
 🌐 Live Demo
 url: https://justinetesara.github.io/My-Personal-Finance-Tracker/
